@@ -13,7 +13,7 @@ def setting_filename():
 
 def copy_create(filename):
     shutil.copy("template.py", "temp.py")
-    # os.chdir("C:/Users/alexa/Documents/Python/Codeacademy/")
+    # os.chdir("") # <--- Set your desired destination directory here, eg. C:/users/username/documents
     os.rename("temp.py", filename)
 
 
